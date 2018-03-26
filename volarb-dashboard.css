@@ -79,7 +79,7 @@ p{ margin-bottom: 1rem }
 
 .mag-color-header{ color: rgb(183,190,197)}
 
-.nav-bar{ padding : 10px 2px; line-height: 2em; max-width: 80px}
+.nav-bar{ padding : 10px 5px; line-height: 2em; max-width: 80px}
 
 .main-area {background-color:white}
 
@@ -106,17 +106,11 @@ table.reversed tr:nth-child(even) { background-color: white; }
 table{ 
 	font-size: 0.95rem; 
 	border-spacing: 0;
-   border-collapse: collapse;
+	border-collapse: collapse;
 }
 
 table.tiny-header tr:first-child{
 	font-size: 8px;
-}
-
-.columns{ margin-left: 0 !important; }
-
-.row > .columns:not(:first-child){
-	padding-left: 20px;
 }
 
 td, th { border: 0 }
