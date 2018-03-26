@@ -161,3 +161,8 @@ td, th { border: 0 }
 h1, h5, h6{ margin: 0 }
 
 h6{ font-size: 1.425rem }
+
+/*remove dash undo button*/
+._dash-undo-redo {
+  display: none;
+}
