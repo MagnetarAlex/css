@@ -67,39 +67,19 @@ body {
 	  box-sizing: border-box;
 	  -moz-box-sizing: border-box;
  }
- .page {
-	  position: relative;
-	  width: 210mm;
-	  min-height: 297mm;
-	  padding: 1cm;
-	  margin: 10mm auto;
-	  /* border: 1px #D3D3D3 solid; */
-	  border-radius: 5px;
-	  background: white;
-	  /* box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); */
- }
 
- @page {
-	  size: A4;
-	  margin: 0;
- }
- @media print {
-	  html, body {
-			width: 210mm;
-			height: 297mm;        
-	  }
-    .no-print, .no-print, ._dash-undo-redo * {
-        display: none !important;
-    }	 
- }
 
 p{ margin-bottom: 1rem }
 
-.mag-header{ color: white !important; -webkit-print-color-adjust: exact; }
+.mag-header{ color: white }
 
-.mag-text-header{ background: rgb(68,93,112) !important; -webkit-print-color-adjust: exact; }
+.mag-dark-header{ background: rgb(68,93,112) }
 
-.mag-table-header{ background: rgb(123,144,157) !important; -webkit-print-color-adjust: exact; }
+.mag-light-header{ background: rgb(123,144,157)}
+
+.mag-color-header{ color: rgb(183,190,197)}
+
+.nav_bar{ padding : 10px 2px}
 
 
 div.padded{ padding: 10px; }
@@ -112,7 +92,7 @@ h6.padded, p.padded{
 
 .blue-text{ color: #8496B8; }
 
-table{ width: 100% }
+table{ width: 100% ; background-color: white}
 
 td{ padding: 2px 0px }
 
