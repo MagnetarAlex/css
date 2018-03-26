@@ -79,7 +79,9 @@ p{ margin-bottom: 1rem }
 
 .mag-color-header{ color: rgb(183,190,197)}
 
-.nav-bar{ padding : 10px 2px; line-height: 2em}
+.nav-bar{ padding : 10px 2px; line-height: 2em; max-width: 80px}
+
+.main-area {background-color:white}
 
 
 div.padded{ padding: 10px; }
