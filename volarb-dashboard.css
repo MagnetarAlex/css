@@ -111,15 +111,12 @@ body {
 
 p{ margin-bottom: 1rem }
 
-.iframe{ border: none; }
-
 .mag-header{ color: white !important; -webkit-print-color-adjust: exact; }
 
-.mag-text-header{ background: #2C3859 !important; -webkit-print-color-adjust: exact; }
+.mag-text-header{ background: 'rbg(68,93,112)' !important; -webkit-print-color-adjust: exact; }
 
-.mag-table-header{ background: #7F91AC !important; -webkit-print-color-adjust: exact; }
+.mag-table-header{ background: 'rgb(123,144,157)' !important; -webkit-print-color-adjust: exact; }
 
-.mag-accent-header{ background: #65201F !important; -webkit-print-color-adjust: exact; }
 
 div.padded{ padding: 10px; }
 
