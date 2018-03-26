@@ -113,9 +113,9 @@ p{ margin-bottom: 1rem }
 
 .mag-header{ color: white !important; -webkit-print-color-adjust: exact; }
 
-.mag-text-header{ background: 'rbg(68,93,112)' !important; -webkit-print-color-adjust: exact; }
+.mag-text-header{ background: rgb(68,93,112) !important; -webkit-print-color-adjust: exact; }
 
-.mag-table-header{ background: 'rgb(123,144,157)' !important; -webkit-print-color-adjust: exact; }
+.mag-table-header{ background: rgb(123,144,157) !important; -webkit-print-color-adjust: exact; }
 
 
 div.padded{ padding: 10px; }
