@@ -79,7 +79,7 @@ p{ margin-bottom: 1rem }
 
 .mag-color-header{ color: rgb(183,190,197)}
 
-.nav-bar{ padding : 10px 5px; line-height: 2em; max-width: 80px}
+.nav-bar{ padding : 10px 10px; line-height: 2em; max-width: 70px; font-size:1.5rem}
 
 .main-area {background-color:white}
 
@@ -96,7 +96,7 @@ h6.padded, p.padded{
 
 table{ width: 100% ; background-color: white}
 
-td{ padding: 2px 0px }
+td{ padding: 2px 0px ; padding-left: 2px;}
 
 tr:nth-child(even) { background-color: #D7DBE1; }
 
